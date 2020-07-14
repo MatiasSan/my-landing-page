@@ -1,5 +1,6 @@
 body {
-
+    color: #50867c;
+    margin: 0;
     font-family: 'Merriweather', serif;
     text-align: center;
 
@@ -11,14 +12,23 @@ h1 {
     margin: 0 auto;
     width: 20%;
     font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+
 }
+
+
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
+h3 {
+    color: #11999E;
+   
 }
 
 div {
@@ -26,22 +36,65 @@ div {
 
 }
 
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.profile-img {
+    margin-top: 50px;
+    width: 300px;
+}
+
 .top-container {
     background-color: #e4e3e3;
     position: relative;
     padding-top: 100px;
-    
+
+
+}
+.bottom-container{
+    margin top: 60px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
 
 }
 
-.middle-container {
-   
+.img-skill {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
-.bottom-container {
-    
-
+.img-skillr {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
+
+
 
 .bottom-cloud {
     position: absolute;
@@ -57,4 +110,8 @@ div {
 
 .mountain {
     width: 50%;
+}
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
 }
